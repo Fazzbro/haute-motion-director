@@ -1,0 +1,44 @@
+{
+  "duration": 20.0,
+  "scale": "b_minor_pent",
+  "seed": 108,
+  "reverb_wet": 0.14,
+  "reverb_decay": 0.46,
+  "target_peak_db": -1.5,
+  "warmth_shelf_db": -5.5,
+  "bed": {
+    "enabled": true,
+    "start": 4.8,
+    "duration": 11.4,
+    "bpm": 115.0,
+    "gain_db": -13.0
+  },
+  "cues": [
+    { "t": 0.08, "type": "chord_bloom", "degrees": [0, 2, 3, 4], "octave": 0, "duration": 1.7, "strum_ms": 42, "gain_db": -10.0, "label": "Intro velvet OS chime bloom" },
+    { "t": 0.42, "type": "typing_stream", "chars": 11, "wpm": 130, "end_with_enter": false, "pan": -0.05, "gain_db": -10.5, "label": "Headline types out" },
+
+    { "t": 2.05, "type": "silk_whoosh", "duration": 0.38, "direction": "in", "weight": "medium", "pan_start": -0.25, "pan_end": 0.25, "gain_db": -6.5, "label": "Hero bar wipes open" },
+    { "t": 2.24, "type": "sub_thud", "duration": 0.22, "gain_db": -5.5, "label": "Bar anchor lock" },
+    { "t": 2.85, "type": "tactile_click", "style": "mouse", "double_stage": true, "pan": 0.04, "gain_db": -4.5, "label": "Switch toggle click" },
+    { "t": 3.45, "type": "dither_flutter", "duration": 0.24, "grains": 8, "pan": 0.0, "gain_db": -8.5, "label": "Pixel dither morph" },
+    { "t": 4.05, "type": "glass_chime", "degree": 4, "octave": 0, "duration": 0.78, "brightness": 0.42, "gain_db": -8.0, "label": "Logo reveal warm felt-glass ping" },
+
+    { "t": 4.80, "type": "aperture_snap", "pan": 0.0, "gain_db": -4.5, "label": "Logo brackets lock on beat" },
+    { "t": 6.40, "type": "menu_scrub", "items": 5, "interval_ms": 105, "start_degree": 0, "ascending": true, "end_with_click": true, "pan": 0.08, "gain_db": -6.0, "label": "Context menu hover + click" },
+
+    { "t": 8.20, "type": "liquid_pop", "degree": 1, "octave": 0, "direction": "up", "size": "large", "pan": -0.06, "gain_db": -3.5, "label": "Terminal window opens" },
+    { "t": 8.65, "type": "typing_stream", "chars": 15, "wpm": 125, "end_with_enter": true, "pan": 0.02, "gain_db": -6.5, "label": "Command input typing" },
+
+    { "t": 10.90, "type": "counter_ratchet", "duration": 0.90, "ticks": 9, "start_degree": 0, "with_resolve_chime": true, "pan": 0.0, "gain_db": -6.0, "label": "Metric climbs 74% -> 93%" },
+
+    { "t": 12.60, "type": "silk_whoosh", "duration": 0.34, "direction": "in", "weight": "light", "pan_start": -0.22, "pan_end": 0.22, "gain_db": -6.0, "label": "Benchmark window slides in" },
+    { "t": 12.85, "type": "progress_glide", "duration": 0.55, "start_degree": 0, "end_degree": 2, "octave": 1, "with_lock_tick": true, "gain_db": -7.5, "label": "1M tokens progress fill" },
+    { "t": 14.35, "type": "liquid_pop", "degree": 3, "octave": 0, "direction": "up", "size": "medium", "pan": 0.10, "gain_db": -4.0, "label": "Second comparison card pops" },
+    { "t": 14.70, "type": "progress_glide", "duration": 0.42, "start_degree": 1, "end_degree": 3, "octave": 1, "with_lock_tick": true, "gain_db": -7.5, "label": "0.05s bar fill" },
+
+    { "t": 16.40, "type": "chord_bloom", "degrees": [0, 2, 3, 4], "octave": 0, "duration": 2.4, "strum_ms": 44, "gain_db": -8.0, "label": "Outro open chime resolve" },
+    { "t": 17.55, "type": "bubble_cascade", "count": 5, "start_degree": 0, "step": 1, "spacing_ms": 62, "direction": "up", "pan_start": -0.18, "pan_end": 0.18, "gain_db": -5.0, "label": "Playful liquid sparkle cascade" },
+    { "t": 18.45, "type": "tactile_click", "style": "mouse", "double_stage": true, "pan": 0.0, "gain_db": -4.0, "label": "Final CTA click" },
+    { "t": 18.54, "type": "glass_chime", "degree": 4, "octave": 0, "duration": 1.35, "brightness": 0.42, "gain_db": -7.5, "label": "Final warm felt-glass resolve" }
+  ]
+}

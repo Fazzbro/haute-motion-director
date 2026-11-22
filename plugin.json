@@ -1,0 +1,12 @@
+{
+  "name": "haute-motion-director",
+  "displayName": "Haute Motion Director",
+  "version": "2.6.0",
+  "description": "Zero-slop motion graphics, SaaS product launch direction, Remotion markup/motion blur, kinetic typography, procedural studio backdrops, procedural animated gradients, and pure-code non-fatiguing SFX synthesis suite. Bundles visual art direction across 6 auteur archetypes, official Remotion markup rules, and deterministic procedural audio/visual engineering.",
+  "suggestedPrompts": [
+    "Direct and code a zero-slop SaaS product launch video in HyperFrames or Remotion",
+    "Add expanding highlight boxes, Reddit/Slack forum threads, or kinetic typography to my scene",
+    "Generate a procedural obsidian/twilight/cobalt studio backdrop purely in CSS and SVG",
+    "Add an animated procedural melt/silk/mesh gradient backdrop with fluted glass to my Remotion scene"
+  ]
+}
